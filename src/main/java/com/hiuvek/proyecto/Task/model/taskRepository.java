@@ -7,10 +7,12 @@ import java.util.List;
 
 public class taskRepository {
     List<Task> tasks = new ArrayList<>();
+
     public void saveTask(Task task) {
         tasks.add(task);
     }
-    public Task findById(int id) {
+
+    public Task findById(String id) {
         for (Task task : tasks) {
             if (task.getId().equals(id)) {
                 return task;
@@ -18,13 +20,16 @@ public class taskRepository {
         }
         return null;
     }
-    public void removeTask(int id) {
+
+    public void removeTask(String id) {
         Task task = findById(id);
         tasks.remove(task);
     }
+
     public List<Task> findAll() {
         return tasks;
     }
+
     public int findIndexById(int id) {
         for (int i = 0; i < tasks.size(); i++) {
             if (tasks.get(i).getId().equals(id)) {
