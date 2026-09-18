@@ -1,4 +1,4 @@
-package com.hiuvek.proyecto.Task.controller;
+package com.hiuvek.proyecto.Task.model;
 
 public class Task {
     private String id;

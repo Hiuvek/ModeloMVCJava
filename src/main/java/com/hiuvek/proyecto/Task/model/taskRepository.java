@@ -1,6 +1,5 @@
 package com.hiuvek.proyecto.Task.model;
 
-import com.hiuvek.proyecto.Task.controller.Task;
 import com.hiuvek.proyecto.Task.exepciones.TaskExcepcion;
 
 import java.util.ArrayList;
