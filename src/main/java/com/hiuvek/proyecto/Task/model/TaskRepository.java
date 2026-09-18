@@ -5,7 +5,7 @@ import com.hiuvek.proyecto.Task.exepciones.TaskExcepcion;
 import java.util.ArrayList;
 import java.util.List;
 
-public class taskRepository {
+public class TaskRepository {
 
     List<Task> tasks = new ArrayList<>();
 
