@@ -1,7 +1,6 @@
 package com.hiuvek.proyecto.Task.controller;
 
-public class Task
-{
+public class Task {
     private String id;
     private String title;
     private String description;
